@@ -4,6 +4,8 @@
 >- just used for learning
 >## fetch and pull remote repository to local repository
 #Future Plans List
--[x]Keep the remote repository updated
--[]Achieve more function
--[]Maintain the repository regularly
+>
+>- [x]Keep the remote repository updated
+>- []Achieve more function
+>- []Maintain the repository regularly
+>
