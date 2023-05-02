@@ -10,4 +10,4 @@
 - [ ] Maintain the repository regularly
 
 ## Contact
-[bilibili]{https://space.bilibili.com/1967384804?spm_id_from=333.1007.0.0}
+[bilibili accout]{https://space.bilibili.com/1967384804?spm_id_from=333.1007.0.0 "click auto jump"}
