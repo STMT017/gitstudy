@@ -18,7 +18,7 @@
     <ClCompile Include="main.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="User.c">
+    <ClCompile Include="User.h">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="UserList.c">

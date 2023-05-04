@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"User.c"
+#include"User.h"
 #include <stdlib.h>
 
 #define ERROR -1

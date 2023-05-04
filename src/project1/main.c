@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include "User.c"
+#include "User.h"
 #include"KMP.h"
+#include "Userfunc.c"
 
 /*
 * C语言程序设计---小型图书管理系统
@@ -25,11 +26,9 @@
 *  2)图书库Lib_mysql
 */
 
-
-int main()
+//登录页面
+void login_web()
 {
-	int t = 0;
-
 	printf("|____________________________________________________|\n");
 	printf("|********************登录界面************************|\n");
 	printf("|****************************************************|\n");
@@ -39,20 +38,72 @@ int main()
 	printf("|************[注册]************[登录]****************|\n");
 	printf("|***********输入2注册********输入3登录***************|\n");
 	printf("|____________________________________________________|\n");
+}
 
-	printf("输入的数:");
+//用户界面
+void user_web()
+{
+
+}
+
+
+//
+
+
+int main()
+{
+
+	//第一步:打开登录界面
+	void login_web();
+	
+	//第二步:选择下一步登录选项
+	int t = 0;
+	printf("输入操作数:");
 	scanf("%d\n", &t);
 
 	switch (t)
 	{
 		case 1:
 		{
-
+			//登录操作
+			login();
 
 		}
 		case 2:
 		{
+			//注册操作
+			regist();
 
+		}
+		case 3:
+		{
+			//确认登录
+		}
+	}
+
+	//第三步:进入用户界面
+	void user_web();
+
+	//第四步:选择下一步功能选项
+	int f = 0;
+	printf("输入操作数:");
+	scanf("%d", &f);
+
+	switch (f)
+	{
+		case 1:
+		{
+			break;
+		}
+
+		case 2:
+		{
+			break;
+		}
+
+		case 3:
+		{
+			break;
 		}
 	}
 	return 0;

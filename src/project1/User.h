@@ -1,3 +1,4 @@
+#pragma once
 #include<string.h>
 
 //”√ªß Ù–‘
@@ -12,7 +13,7 @@ typedef struct User
 
 
 
-
+/*
 int main()
 {
  
@@ -22,3 +23,4 @@ int main()
 
 	return 0;
 }
+*/

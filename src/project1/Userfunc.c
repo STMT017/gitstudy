@@ -1,6 +1,5 @@
-
 #include<stdio.h>
-#include"User.c"
+#include"User.h"
 #include "UserList.c"
 #include"KMP.h"
 
@@ -10,11 +9,6 @@ int User_UID(const User* usr)
 {
 	return (*usr).UID;
 }
-
-
-
-
-
 
 
 
@@ -45,5 +39,21 @@ void regist()
 	User_Insert( &L, new_user);
 	printf("注册成功!!!");
 	//第三步:回到登录操作
-	login();
+	char* judge="yes";				//默认为yes
+	printf("是否进行登录(输入yes/no):");
+	scanf("%s", judge);
+	if (judge = "yes") {
+		login();
+	}
+	else
+	{
+
+	}
+
+	
+}
+
+int main()
+{
+	return 0;
 }
