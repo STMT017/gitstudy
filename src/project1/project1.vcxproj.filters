@@ -18,5 +18,28 @@
     <ClCompile Include="main.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="User.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserList.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BookList.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Userfunc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KMP.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

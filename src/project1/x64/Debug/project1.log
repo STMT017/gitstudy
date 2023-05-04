@@ -1,0 +1,11 @@
+﻿  Userfunc.c
+A:\git\gitkraken\local\gitstudy\src\project1\User.c(19,17): warning C4305: “初始化”: 从“__int64”到“unsigned int”截断
+A:\git\gitkraken\local\gitstudy\src\project1\User.c(5,1): error C2011: “User”:“struct”类型重定义
+A:\git\gitkraken\local\gitstudy\src\project1\User.c(4,16): message : 参见“User”的声明
+A:\git\gitkraken\local\gitstudy\src\project1\User.c(16,5): error C2084: 函数“int main()”已有主体
+A:\git\gitkraken\local\gitstudy\src\project1\User.c(16,5): message : 参见“main”的前一个定义
+A:\git\gitkraken\local\gitstudy\src\project1\User.c(19,17): warning C4305: “初始化”: 从“__int64”到“unsigned int”截断
+A:\git\gitkraken\local\gitstudy\src\project1\Userfunc.c(26,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+A:\git\gitkraken\local\gitstudy\src\project1\Userfunc.c(28,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+A:\git\gitkraken\local\gitstudy\src\project1\Userfunc.c(41,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+A:\git\gitkraken\local\gitstudy\src\project1\Userfunc.c(43,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
