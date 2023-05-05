@@ -4,13 +4,17 @@
 //用户属性
 typedef struct User
 {
-	const char* name;								//用户名
-	unsigned int accout,password;			//账号+密码
-	unsigned int old_password;				//旧密码(用于修改密码)
-	unsigned short UID;							//用户UID{1~256}(作为索引)
+	const char* name;												//用户名
+	unsigned int accout;											//账号
+	const char* password,*old_password;				//密码、旧密码(用于修改密码)
+	unsigned short UID;											//用户UID{1~256}(作为索引)
 }User;
 
+//通过账号寻找UID
+int Show_UID(unsigned int accout)
+{
 
+}
 
 
 /*

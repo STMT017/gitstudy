@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include"User.h"
-#include"UserList.c"
+#include "UserList.h"
+#include"KMP.h"
 
 //使用KMP算法进行信息匹配
 
@@ -17,15 +17,16 @@
 //对用户accout和password进行数字匹配
 int accout_match(User user, SqList L)
 {
-	int S = user.accout;	
-	for (int i = 1; i < L.len; i++)
+	int tmp = user.accout;	
+	for (int i = 0; i < L.len; i++)
 	{
-		int T = L.base[i].accout;
-		if (S = T)
-		{															//进入密码验证
-			return i;
+		int accout = L.base[i].accout;
+		if (tmp = accout)
+		{						
+			return i;		//返回该账号在用户库的位置
 		}
 	}
+	printf("不存在该账号");
 	return -1;
 }
 
@@ -35,18 +36,9 @@ const char*  password_match(User user, SqList L)
 	int uid = accout_match(user, L);		//存放用户UID
 	
 	//通过该UID寻找到该用户存放的密码与当前密码进行匹配
-	if (user.password != L.base[uid].password)
-	{
-		return "输入的密码错误";
-	}
-	else
-	{
-		//进入用户界面
-
-		return;
-	}
-		
-	return false;
+	if (user.password == L.base[uid].password)
+		return "即将进入用户操作界面....";		
+	return "输入的密码错误";
 }
 
 

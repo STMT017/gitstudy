@@ -1,4 +1,1 @@
-﻿  Userfunc.c
-A:\git\gitkraken\local\gitstudy\src\project1\UserList.c(47): warning C4715: “User_Delete”: 不是所有的控件路径都返回值
-A:\git\gitkraken\local\gitstudy\src\project1\UserList.c(39): warning C4715: “User_Insert”: 不是所有的控件路径都返回值
-  project1.vcxproj -> A:\git\gitkraken\local\gitstudy\src\project1\x64\Debug\project1.exe
+﻿  project1.vcxproj -> A:\git\gitkraken\local\gitstudy\src\project1\x64\Debug\project1.exe

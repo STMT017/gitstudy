@@ -1,6 +1,8 @@
+#pragma once
 #include<stdio.h>
 #include"User.h"
 #include <stdlib.h>
+#include<malloc.h>
 
 #define ERROR -1
 #define OK 1
@@ -31,11 +33,13 @@ int User_Init(UserList L)
 }
 
 //User顺序表新用户入表
-int User_Insert(UserList L,User user)
+void User_Insert(UserList L,User user)
 {
-	if (!(*L).len == MAXSIZE-1) return ERROR;		//用户表满了退出
-	(*L).base[(*L).len] = user;								//新用户入表
+	if ((*L).len == MAXSIZE-1) //return ERROR;		//用户表满了退出
+	(*L).base[(*L).len] =user;								//新用户入表
 	(*L).len++;
+	//(*L).base[(*L).len].UID = (*L).len;
+	//return OK;
 }
 
 //User顺序表删除用户
@@ -44,4 +48,10 @@ int User_Delete(UserList L,User UID)
 	if (!(*L).len == 0) return ERROR;
 	//使用KMP算法找到目标UID的下标位置,然后进行删除操作
 
+}
+
+//输出一个用户
+User Show_UserList(SqList L,int uid)
+{
+	return L.base[uid];
 }

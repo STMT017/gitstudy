@@ -21,7 +21,7 @@
     <ClCompile Include="User.h">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="UserList.c">
+    <ClCompile Include="UserList.h">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="BookList.c">
