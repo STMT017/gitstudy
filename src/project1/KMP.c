@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "UserList.h"
-#include"KMP.h"
+#include"../project1/KMP.h"
 
 //使用KMP算法进行信息匹配
 

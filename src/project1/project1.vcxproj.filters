@@ -38,8 +38,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="KMP.h">
+    <ClInclude Include="Web.c">
       <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Web.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KMP.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "UserList.h"
-#include"KMP.c"
+#include"../project1/KMP.h"
 
 int Point() {
 	static int index = 0;

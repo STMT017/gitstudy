@@ -1,1 +1,13 @@
-﻿  project1.vcxproj -> A:\git\gitkraken\local\gitstudy\src\project1\x64\Debug\project1.exe
+﻿  main.c
+A:\git\gitkraken\local\gitstudy\src\project1\KMP.h(1,1): warning C4828: 文件包含在偏移 0xba 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+A:\git\gitkraken\local\gitstudy\src\project1\KMP.h(1,1): warning C4828: 文件包含在偏移 0xba 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+A:\git\gitkraken\local\gitstudy\src\project1\Userfunc.c(22,9): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char *const *”
+A:\git\gitkraken\local\gitstudy\src\project1\Userfunc.c(34,8): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char **”
+A:\git\gitkraken\local\gitstudy\src\project1\Userfunc.c(50,8): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char **”
+A:\git\gitkraken\local\gitstudy\src\project1\Userfunc.c(52,8): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“const char **”
+A:\git\gitkraken\local\gitstudy\src\project1\User.h(17): warning C4716: “Show_UID”: 必须返回一个值
+A:\git\gitkraken\local\gitstudy\src\project1\UserList.h(51): warning C4715: “User_Delete”: 不是所有的控件路径都返回值
+main.obj : error LNK2019: 无法解析的外部符号 login_web，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 user_web，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 accout_match，函数 login 中引用了该符号
+A:\git\gitkraken\local\gitstudy\src\project1\x64\Debug\project1.exe : fatal error LNK1120: 3 个无法解析的外部命令
